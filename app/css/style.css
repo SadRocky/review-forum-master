@@ -1,0 +1,317 @@
+body {
+    background: #363636;
+}
+
+/* MENU */
+
+a.ml-3:hover {
+  color: #5181B8;
+  transition: 0.5s;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #5181B8;
+  margin-top: -28px;
+  margin-left: 15px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #272727;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #d6d6d6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a#navbar:hover:not(.active) {
+    background-color: #5181B8;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #d6d6d6;
+  }
+
+  a.active:hover {
+    text-decoration: none;
+    color: #d6d6d6;
+  }
+
+  .active {
+    background-color: #5181B8;
+  }
+
+/* CAROUSEL */
+
+.view {
+    height: 100%;
+}
+
+.carousel {
+    height: 50%;
+}
+
+.carousel .carousel-inner {
+    height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item, 
+.carousel .carousel-inner .active {
+    height: 100%;
+}
+
+@media (max-width:776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+.page-footer {
+    background-color: #929FBA;
+}
+
+main .container #header {
+    background: gray;
+}
+    .carousel {
+      height: 60vh;
+}
+
+@media (max-width:740px) {
+    html, 
+    body, 
+    .carousel {
+      height: 100vh;
+  }
+@media (min-width: 800px) and (max-width: 850px) {
+    html, 
+    body, 
+    header,
+    .carousel {
+      height: 100vh;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.container {
+  padding: 0;
+}
+
+div.col-md-12.col-lg-4{
+  background: #272727;
+}
+
+div.col-md-12.col-lg-8{
+  background: #272727;
+}
+
+div.poster {
+  margin-top: 30px;
+  background: #272727;
+}
+
+a.post {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+h1.post {
+  font-size: 20px;
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+span.post {
+  padding-right: 3%;
+  margin-top: 3%;
+}
+
+p.text-left {
+  font-size: 18px;
+  margin-top: 3%;
+}
+
+div.widget {
+  background: #5181B8;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+div.widget {
+  margin-top: 30px;
+}
+
+p.group {
+  padding: 15px;
+  color: #d6d6d6;
+}
+
+p.text-left {
+  color: #d6d6d6;
+}
+
+img {
+  background: black;
+  opacity: 0.7;
+}
+
+
+h1.logo {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 2%;
+  letter-spacing: 5px;
+}
+
+h1.slide {
+  color: #fff;
+  margin-top: 250px;
+}
+
+@media (max-width: 576px) {
+  h1.logo {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10%;
+  }
+
+  h1.slide { 
+    font-size: 38px;
+    color: white;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  h1.slide {
+    color: white;
+    margin-top: 70%;
+  }
+}
+
+@media (min-width: 769px) {
+
+}
+
+div#post.col-12 {
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+p#post.text-left {
+  margin: 0px;
+}
+
+div#post.col-5 {
+  padding-right: 0px;
+}
+
+
+
+
+.tabs {
+  font-size: 0;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tabs>input[type="radio"] {
+  display: none;
+}
+
+.tabs>div {
+  display: none;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3 {
+  display: block;
+  border: 2px solid #5181B8;
+}
+
+.tabs>label {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #272727;
+  padding: 2px 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+}
+
+.tabs>label:not(:first-of-type) {
+  border-left: none;
+}
+
+.tabs>input[type="radio"]:checked+label {
+  background-color: #5181B8;
+  text-align: left;
+  padding: 15px;
+  transition: 0.5s;
+
+}
+
+label {
+  margin: 0px;
+}
+
+.footer-text {
+  color: #fff;
+  margin: 0px;
+  padding: 10px;
+  padding-left: 0px;
+}
+
+a.page-link {
+  color: #5181B8;
+  font-weight: bold;
+  font-size: 20px;
+  background: #363636;
+  border-color: #5181B8;
+  margin: 5px;
+  padding: 10px 15px;
+  transition: 0.5s;
+}
+
+a.page-link:hover {
+  background: #5181B8;
+  border-color: #5181B8;
+  color: #fff;
+  transition: 0.5s;
+
+}
